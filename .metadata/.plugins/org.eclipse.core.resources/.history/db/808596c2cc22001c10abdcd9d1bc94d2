@@ -1,0 +1,22 @@
+package stepDefinitionLogin3;
+
+public class SmokeTestLogin3 {
+
+	@Given("^open chrome and start application$")
+	public void open_chrome_and_start_application() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@When("^User enter invalid username and valid password$")
+	public void User_enter_invalid_username_and_valid_password() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^User cannot login succesfully$")
+	public void User_cannot_login_succesfully() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+}

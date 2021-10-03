@@ -1,0 +1,18 @@
+Feature: test for stockbit (https://stockbit.com/)
+
+		@register
+			Scenario: Test Login with valid username and password
+					Given Open chrome and start application
+					When User click sign up
+					Then User click button register with email
+					And User fill the form 
+					And User click register button
+					Then User create the account successfully
+		
+		@login
+			Scenario: Test Login with valid username and password
+					Given open chrome and start application
+					When I enter valid username and valid password
+					Then I can login succesfully
+				
+

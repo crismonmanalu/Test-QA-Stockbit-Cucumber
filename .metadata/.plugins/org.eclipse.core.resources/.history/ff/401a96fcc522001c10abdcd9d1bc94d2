@@ -1,0 +1,27 @@
+package stepDefinitionRegister;
+
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class SmokeTestRegister {
+
+	@When("^User click sign up$")
+	public void User_click_sign_up() throws Throwable {
+	}
+
+	@Then("^User click button register with email$")
+	public void User_click_button_register_with_email() throws Throwable {
+	}
+
+	@Then("^User fill the form$")
+	public void User_fill_the_form() throws Throwable {
+	}
+
+	@Then("^User click register button$")
+	public void User_click_register_button() throws Throwable {
+	}
+
+	@Then("^User create the account successfully$")
+	public void User_create_the_account_successfully() throws Throwable {
+	}
+}

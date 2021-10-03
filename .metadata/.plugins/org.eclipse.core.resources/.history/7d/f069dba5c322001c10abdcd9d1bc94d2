@@ -1,0 +1,8 @@
+Feature: test for stockbit (https://stockbit.com/)
+
+			Scenario: Test Login with valid username and password
+					Given open chrome and start application
+					When I enter valid username and valid password
+					Then I can login succesfully
+				
+

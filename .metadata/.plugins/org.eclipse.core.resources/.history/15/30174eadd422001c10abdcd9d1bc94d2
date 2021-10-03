@@ -1,0 +1,30 @@
+package stepDefinitionLogin3;
+
+import org.openqa.selenium.WebDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class SmokeTestLogin3 {
+
+	WebDriver driver;
+	
+	@Given("^open chrome and start application$")
+	public void open_chrome_and_start_application() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    
+	}
+
+	@When("^User enter invalid username and valid password$")
+	public void User_enter_invalid_username_and_valid_password() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    
+	}
+
+	@Then("^User cannot login succesfully$")
+	public void User_cannot_login_succesfully() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    
+	}
+}

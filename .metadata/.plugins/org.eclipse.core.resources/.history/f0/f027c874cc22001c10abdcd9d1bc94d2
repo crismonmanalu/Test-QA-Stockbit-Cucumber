@@ -1,0 +1,58 @@
+package stepDefinitionChangePassword;
+
+public class SmokeTestChangePassword {
+
+	@Given("^open chrome and start application$")
+	public void open_chrome_and_start_application() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@When("^User enter valid username and valid password$")
+	public void User_enter_valid_username_and_valid_password() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^User can login succesfully$")
+	public void User_can_login_succesfully() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^User click profile tab$")
+	public void User_click_profile_tab() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^User click Edit Profile button$")
+	public void User_click_Edit_Profile_button() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^User click password tabs$")
+	public void User_click_password_tabs() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^User input current password$")
+	public void User_input_current_password() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^User input new password and confirm new password$")
+	public void User_input_new_password_and_confirm_new_password() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^User change password succesfully$")
+	public void User_change_password_succesfully() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+}

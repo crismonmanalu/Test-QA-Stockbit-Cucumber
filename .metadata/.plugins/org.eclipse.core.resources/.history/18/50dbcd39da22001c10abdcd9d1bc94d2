@@ -1,0 +1,71 @@
+package stepDefinitionChangePassword;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class SmokeTestChangePassword {
+
+	WebDriver driver;
+	
+	@Given("^open chrome and start application$")
+	public void open_chrome_and_start_application() throws Throwable {
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
+		
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://stockbit.com/#/login");  
+	    
+	}
+
+	@When("^User enter valid username and valid password$")
+	public void User_enter_valid_username_and_valid_password() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^User can login succesfully$")
+	public void User_can_login_succesfully() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^User click profile tab$")
+	public void User_click_profile_tab() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^User click Edit Profile button$")
+	public void User_click_Edit_Profile_button() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^User click password tabs$")
+	public void User_click_password_tabs() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^User input current password$")
+	public void User_input_current_password() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^User input new password and confirm new password$")
+	public void User_input_new_password_and_confirm_new_password() throws Throwable {
+	    
+	    
+	}
+
+	@Then("^User change password succesfully$")
+	public void User_change_password_succesfully() throws Throwable {
+	    
+	    
+	}
+}

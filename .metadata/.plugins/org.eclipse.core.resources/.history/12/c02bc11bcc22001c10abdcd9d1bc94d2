@@ -1,0 +1,5 @@
+package stepDefinitionChangePassword;
+
+public class SmokeTestChangePassword {
+
+}

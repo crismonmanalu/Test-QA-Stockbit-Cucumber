@@ -1,0 +1,24 @@
+package stepDefinitionLogin1;
+
+public class SmokeTestLogin1 {
+
+
+@Given("^open chrome and start application$")
+public void open_chrome_and_start_application() throws Throwable {
+    // Express the Regexp above with the code you wish you had
+    throw new PendingException();
+}
+
+@When("^User enter valid username and valid password$")
+public void User_enter_valid_username_and_valid_password() throws Throwable {
+    // Express the Regexp above with the code you wish you had
+    throw new PendingException();
+}
+
+@Then("^User can login succesfully$")
+public void User_can_login_succesfully() throws Throwable {
+    // Express the Regexp above with the code you wish you had
+    throw new PendingException();
+}
+
+}
