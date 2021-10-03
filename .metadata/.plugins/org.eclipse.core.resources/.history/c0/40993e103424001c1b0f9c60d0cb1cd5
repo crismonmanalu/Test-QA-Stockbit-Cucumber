@@ -1,0 +1,8 @@
+package stepDefinitionForgotPassword2;
+
+import org.openqa.selenium.WebDriver;
+
+public class SmokeTestForgotPassword2 {
+
+	WebDriver driver;
+}

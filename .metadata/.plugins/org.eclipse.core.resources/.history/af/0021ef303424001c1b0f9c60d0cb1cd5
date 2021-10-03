@@ -1,0 +1,33 @@
+package stepDefinitionForgotPassword1;
+
+import org.openqa.selenium.WebDriver;
+
+public class SmokeTestForgotPassword1 {
+
+	WebDriver driver;
+	
+	@Given("^open chrome and start application$")
+	public void open_chrome_and_start_application() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@When("^User click forgot password$")
+	public void User_click_forgot_password() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^User input registered email$")
+	public void User_input_registered_email() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^User will receive forgot password email$")
+	public void User_will_receive_forgot_password_email() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+}

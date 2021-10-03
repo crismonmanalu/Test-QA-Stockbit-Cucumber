@@ -1,0 +1,29 @@
+package stepDefinitionForgotPassword1;
+
+import org.openqa.selenium.WebDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class SmokeTestForgotPassword1 {
+
+	WebDriver driver;
+	
+	@Given("^open chrome and start application$")
+	public void open_chrome_and_start_application() throws Throwable {
+	}
+
+	@When("^User click forgot password$")
+	public void User_click_forgot_password() throws Throwable {
+	}
+
+	@Then("^User input registered email$")
+	public void User_input_registered_email() throws Throwable {
+	}
+
+	@Then("^User will receive forgot password email$")
+	public void User_will_receive_forgot_password_email() throws Throwable {
+	}
+
+}

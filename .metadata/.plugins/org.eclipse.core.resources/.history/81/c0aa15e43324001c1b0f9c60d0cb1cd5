@@ -53,20 +53,6 @@ Feature: test for stockbit (https://stockbit.com/)
 					Then User can login succesfully
 					Then User input words to search
 		
-		@forgotpassword1
-			Scenario: Test Forgot password
-					Given open chrome and start application
-					When User click forgot password
-					Then User input registered email
-					Then User will receive forgot password email
-		
-		@forgotpassword2
-			Scenario: Test Forgot password and input unregistered email
-					Given open chrome and start application
-					When User click forgot password
-					Then User input registered email
-					Then User will not receive forgot password email
-		
 					
 					
 					

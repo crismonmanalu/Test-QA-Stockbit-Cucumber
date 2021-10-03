@@ -1,0 +1,5 @@
+package stepDefinitionForgotPassword2;
+
+public class SmokeTestForgotPassword2 {
+
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerForgotPassword1" project="Test_Stockbit" tests="4" started="4" failures="0" errors="0" ignored="4">
+  <testsuite name="runner.TestRunnerForgotPassword1" time="0.0">
+    <testsuite name="Feature: test for stockbit (https://stockbit.com/)" time="0.0">
+      <testsuite name="Scenario: Test Forgot password" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="Given open chrome and start application" classname="Scenario: Test Forgot password" time="0.0" ignored="true"/>
+        <testcase name="When User click forgot password" classname="Scenario: Test Forgot password" time="0.0" ignored="true"/>
+        <testcase name="Then User input registered email" classname="Scenario: Test Forgot password" time="0.0" ignored="true"/>
+        <testcase name="Then User will receive forgot password email" classname="Scenario: Test Forgot password" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
